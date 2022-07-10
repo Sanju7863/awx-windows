@@ -24,6 +24,7 @@
     - name: Install Firefox
       win_chocolatey:
         name: firefox
-        state: present
+#       state: present
+        state: absent
 
     
